@@ -31,8 +31,8 @@ warnings.filterwarnings('ignore')
 load_dotenv()
 
 # XTB API credentials (from environment variables)
-XTB_USER_ID = os.environ.get("XTB_USER_ID", "50540163")  # Fallback to provided ID if env var not set
-XTB_PASSWORD = os.environ.get("XTB_PASSWORD", "Jphost2005")  # Fallback to provided password if env var not set
+XTB_USER_ID = os.environ.get("XTB_USER_ID", ".")  # Fallback to provided ID if env var not set
+XTB_PASSWORD = os.environ.get("XTB_PASSWORD", ".")  # Fallback to provided password if env var not set
 XTB_WS_URL = os.environ.get("XTB_WS_URL", "wss://ws.xtb.com/real")  # Demo server; use "real" for live accounts
 
 # Output file
